@@ -24,11 +24,9 @@ void draw() {
   if (zero==true) {
     sc.scene0();
   } else if (one==true) {
-    sc.scene1();
-    text("Choose again? (press down arrow)", 200, 400);
+    text("Choose again? (press down arrow)", 200, 500);
   } else if (two==true) {
-    sc.scene2();
-    text("Choose again? (press down arrow)", 200, 400);
+    text("Choose again? (press down arrow)", 200, 500);
   } else {
     zero = true;
   }
